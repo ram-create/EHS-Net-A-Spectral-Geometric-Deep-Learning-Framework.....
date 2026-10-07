@@ -1,0 +1,11 @@
+Parameter,Value
+device,cuda
+root_dir,/home/gyanendra/Desktop/ABC/czii_data
+output_dir,./ehsnet_ieee_results
+checkpoint_path,/home/gyanendra/Desktop/ABC/ehsnet_sota_results/ehsnet_sota_checkpoint.pth
+voxel_spacing,10.0
+crop_size,64
+batch_size,16
+num_workers,4
+particles,"('apo-ferritin', 'beta-amylase', 'beta-galactosidase', 'ribosome', 'thyroglobulin', 'virus-like-particle')"
+labels_map,"('Background', 'apo-ferritin', 'beta-amylase', 'beta-galactosidase', 'ribosome', 'thyroglobulin', 'virus-like-particle')"

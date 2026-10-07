@@ -1,0 +1,778 @@
+================================================================================
+DETAILED DATASET REPORT: CZII Cryo-ET Object Identification
+Generated on: 2026-01-30 13:03:13
+Root Path: /home/gyanendra/Desktop/ABC/czii_data
+Total Files Scanned: 634
+Total Dataset Size: 8.97 GB
+================================================================================
+
+## 0. FILE TYPE STATISTICS
+--------------------------------------------------------------------------------
+Extension            | Count      | Total Size     
+--------------------------------------------------------------------------------
+(no extension)       | 589        | 8.97 GB        
+.json                | 42         | 238.73 KB      
+.py                  | 2          | 18.51 KB       
+.csv                 | 1          | 511.00 B       
+
+## 1. IMPORTANT FILE PATHS
+--------------------------------------------------------------------------------
+Found: /home/gyanendra/Desktop/ABC/czii_data/sample_submission.csv
+Found: /home/gyanendra/Desktop/ABC/czii_data/train
+Found: /home/gyanendra/Desktop/ABC/czii_data/test
+
+## 2. DIRECTORY STRUCTURE (Truncated)
+--------------------------------------------------------------------------------
+czii_data/
+├── test/
+│   └── static/
+│       └── ExperimentRuns/
+│           ├── TS_5_4/
+│           ├── TS_69_2/
+│           └── TS_6_4/
+├── train/
+│   ├── overlay/
+│   │   └── ExperimentRuns/
+│   │       ├── TS_5_4/
+│   │       ├── TS_69_2/
+│   │       ├── TS_6_4/
+│   │       ├── TS_6_6/
+│   │       ├── TS_73_6/
+│   │       ├── TS_86_3/
+│   │       └── TS_99_9/
+│   └── static/
+│       └── ExperimentRuns/
+│           ├── TS_5_4/
+│           ├── TS_69_2/
+│           ├── TS_6_4/
+│           ├── TS_6_6/
+│           ├── TS_73_6/
+│           ├── TS_86_3/
+│           └── TS_99_9/
+├── sample_submission.csv
+├── scan.py
+└── scan2.py
+
+## 3. ZARRAY METADATA (Dimensions & Compression)
+--------------------------------------------------------------------------------
+File: train/static/ExperimentRuns/TS_5_4/VoxelSpacing10.000/isonetcorrected.zarr/0/.zarray
+  Shape: [184, 630, 630] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_5_4/VoxelSpacing10.000/isonetcorrected.zarr/2/.zarray
+  Shape: [46, 158, 158] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_5_4/VoxelSpacing10.000/isonetcorrected.zarr/1/.zarray
+  Shape: [92, 315, 315] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_5_4/VoxelSpacing10.000/ctfdeconvolved.zarr/0/.zarray
+  Shape: [184, 630, 630] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_5_4/VoxelSpacing10.000/ctfdeconvolved.zarr/2/.zarray
+  Shape: [46, 158, 158] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_5_4/VoxelSpacing10.000/ctfdeconvolved.zarr/1/.zarray
+  Shape: [92, 315, 315] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_5_4/VoxelSpacing10.000/wbp.zarr/0/.zarray
+  Shape: [184, 630, 630] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_5_4/VoxelSpacing10.000/wbp.zarr/2/.zarray
+  Shape: [46, 158, 158] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_5_4/VoxelSpacing10.000/wbp.zarr/1/.zarray
+  Shape: [92, 315, 315] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_5_4/VoxelSpacing10.000/denoised.zarr/0/.zarray
+  Shape: [184, 630, 630] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_5_4/VoxelSpacing10.000/denoised.zarr/2/.zarray
+  Shape: [46, 158, 158] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_5_4/VoxelSpacing10.000/denoised.zarr/1/.zarray
+  Shape: [92, 315, 315] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_69_2/VoxelSpacing10.000/isonetcorrected.zarr/0/.zarray
+  Shape: [184, 630, 630] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_69_2/VoxelSpacing10.000/isonetcorrected.zarr/2/.zarray
+  Shape: [46, 158, 158] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_69_2/VoxelSpacing10.000/isonetcorrected.zarr/1/.zarray
+  Shape: [92, 315, 315] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_69_2/VoxelSpacing10.000/ctfdeconvolved.zarr/0/.zarray
+  Shape: [184, 630, 630] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_69_2/VoxelSpacing10.000/ctfdeconvolved.zarr/2/.zarray
+  Shape: [46, 158, 158] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_69_2/VoxelSpacing10.000/ctfdeconvolved.zarr/1/.zarray
+  Shape: [92, 315, 315] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_69_2/VoxelSpacing10.000/wbp.zarr/0/.zarray
+  Shape: [184, 630, 630] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_69_2/VoxelSpacing10.000/wbp.zarr/2/.zarray
+  Shape: [46, 158, 158] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_69_2/VoxelSpacing10.000/wbp.zarr/1/.zarray
+  Shape: [92, 315, 315] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_69_2/VoxelSpacing10.000/denoised.zarr/0/.zarray
+  Shape: [184, 630, 630] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_69_2/VoxelSpacing10.000/denoised.zarr/2/.zarray
+  Shape: [46, 158, 158] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_69_2/VoxelSpacing10.000/denoised.zarr/1/.zarray
+  Shape: [92, 315, 315] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_99_9/VoxelSpacing10.000/isonetcorrected.zarr/0/.zarray
+  Shape: [184, 630, 630] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_99_9/VoxelSpacing10.000/isonetcorrected.zarr/2/.zarray
+  Shape: [46, 158, 158] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_99_9/VoxelSpacing10.000/isonetcorrected.zarr/1/.zarray
+  Shape: [92, 315, 315] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_99_9/VoxelSpacing10.000/ctfdeconvolved.zarr/0/.zarray
+  Shape: [184, 630, 630] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_99_9/VoxelSpacing10.000/ctfdeconvolved.zarr/2/.zarray
+  Shape: [46, 158, 158] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_99_9/VoxelSpacing10.000/ctfdeconvolved.zarr/1/.zarray
+  Shape: [92, 315, 315] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_99_9/VoxelSpacing10.000/wbp.zarr/0/.zarray
+  Shape: [184, 630, 630] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_99_9/VoxelSpacing10.000/wbp.zarr/2/.zarray
+  Shape: [46, 158, 158] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_99_9/VoxelSpacing10.000/wbp.zarr/1/.zarray
+  Shape: [92, 315, 315] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_99_9/VoxelSpacing10.000/denoised.zarr/0/.zarray
+  Shape: [184, 630, 630] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_99_9/VoxelSpacing10.000/denoised.zarr/2/.zarray
+  Shape: [46, 158, 158] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_99_9/VoxelSpacing10.000/denoised.zarr/1/.zarray
+  Shape: [92, 315, 315] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_6_4/VoxelSpacing10.000/isonetcorrected.zarr/0/.zarray
+  Shape: [184, 630, 630] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_6_4/VoxelSpacing10.000/isonetcorrected.zarr/2/.zarray
+  Shape: [46, 158, 158] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_6_4/VoxelSpacing10.000/isonetcorrected.zarr/1/.zarray
+  Shape: [92, 315, 315] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_6_4/VoxelSpacing10.000/ctfdeconvolved.zarr/0/.zarray
+  Shape: [184, 630, 630] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_6_4/VoxelSpacing10.000/ctfdeconvolved.zarr/2/.zarray
+  Shape: [46, 158, 158] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_6_4/VoxelSpacing10.000/ctfdeconvolved.zarr/1/.zarray
+  Shape: [92, 315, 315] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_6_4/VoxelSpacing10.000/wbp.zarr/0/.zarray
+  Shape: [184, 630, 630] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_6_4/VoxelSpacing10.000/wbp.zarr/2/.zarray
+  Shape: [46, 158, 158] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_6_4/VoxelSpacing10.000/wbp.zarr/1/.zarray
+  Shape: [92, 315, 315] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_6_4/VoxelSpacing10.000/denoised.zarr/0/.zarray
+  Shape: [184, 630, 630] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_6_4/VoxelSpacing10.000/denoised.zarr/2/.zarray
+  Shape: [46, 158, 158] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_6_4/VoxelSpacing10.000/denoised.zarr/1/.zarray
+  Shape: [92, 315, 315] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_6_6/VoxelSpacing10.000/isonetcorrected.zarr/0/.zarray
+  Shape: [184, 630, 630] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_6_6/VoxelSpacing10.000/isonetcorrected.zarr/2/.zarray
+  Shape: [46, 158, 158] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_6_6/VoxelSpacing10.000/isonetcorrected.zarr/1/.zarray
+  Shape: [92, 315, 315] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_6_6/VoxelSpacing10.000/ctfdeconvolved.zarr/0/.zarray
+  Shape: [184, 630, 630] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_6_6/VoxelSpacing10.000/ctfdeconvolved.zarr/2/.zarray
+  Shape: [46, 158, 158] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_6_6/VoxelSpacing10.000/ctfdeconvolved.zarr/1/.zarray
+  Shape: [92, 315, 315] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_6_6/VoxelSpacing10.000/wbp.zarr/0/.zarray
+  Shape: [184, 630, 630] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_6_6/VoxelSpacing10.000/wbp.zarr/2/.zarray
+  Shape: [46, 158, 158] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_6_6/VoxelSpacing10.000/wbp.zarr/1/.zarray
+  Shape: [92, 315, 315] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_6_6/VoxelSpacing10.000/denoised.zarr/0/.zarray
+  Shape: [184, 630, 630] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_6_6/VoxelSpacing10.000/denoised.zarr/2/.zarray
+  Shape: [46, 158, 158] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_6_6/VoxelSpacing10.000/denoised.zarr/1/.zarray
+  Shape: [92, 315, 315] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_86_3/VoxelSpacing10.000/isonetcorrected.zarr/0/.zarray
+  Shape: [184, 630, 630] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_86_3/VoxelSpacing10.000/isonetcorrected.zarr/2/.zarray
+  Shape: [46, 158, 158] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_86_3/VoxelSpacing10.000/isonetcorrected.zarr/1/.zarray
+  Shape: [92, 315, 315] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_86_3/VoxelSpacing10.000/ctfdeconvolved.zarr/0/.zarray
+  Shape: [184, 630, 630] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_86_3/VoxelSpacing10.000/ctfdeconvolved.zarr/2/.zarray
+  Shape: [46, 158, 158] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_86_3/VoxelSpacing10.000/ctfdeconvolved.zarr/1/.zarray
+  Shape: [92, 315, 315] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_86_3/VoxelSpacing10.000/wbp.zarr/0/.zarray
+  Shape: [184, 630, 630] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_86_3/VoxelSpacing10.000/wbp.zarr/2/.zarray
+  Shape: [46, 158, 158] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_86_3/VoxelSpacing10.000/wbp.zarr/1/.zarray
+  Shape: [92, 315, 315] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_86_3/VoxelSpacing10.000/denoised.zarr/0/.zarray
+  Shape: [184, 630, 630] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_86_3/VoxelSpacing10.000/denoised.zarr/2/.zarray
+  Shape: [46, 158, 158] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_86_3/VoxelSpacing10.000/denoised.zarr/1/.zarray
+  Shape: [92, 315, 315] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_73_6/VoxelSpacing10.000/isonetcorrected.zarr/0/.zarray
+  Shape: [184, 630, 630] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_73_6/VoxelSpacing10.000/isonetcorrected.zarr/2/.zarray
+  Shape: [46, 158, 158] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_73_6/VoxelSpacing10.000/isonetcorrected.zarr/1/.zarray
+  Shape: [92, 315, 315] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_73_6/VoxelSpacing10.000/ctfdeconvolved.zarr/0/.zarray
+  Shape: [184, 630, 630] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_73_6/VoxelSpacing10.000/ctfdeconvolved.zarr/2/.zarray
+  Shape: [46, 158, 158] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_73_6/VoxelSpacing10.000/ctfdeconvolved.zarr/1/.zarray
+  Shape: [92, 315, 315] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_73_6/VoxelSpacing10.000/wbp.zarr/0/.zarray
+  Shape: [184, 630, 630] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_73_6/VoxelSpacing10.000/wbp.zarr/2/.zarray
+  Shape: [46, 158, 158] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_73_6/VoxelSpacing10.000/wbp.zarr/1/.zarray
+  Shape: [92, 315, 315] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_73_6/VoxelSpacing10.000/denoised.zarr/0/.zarray
+  Shape: [184, 630, 630] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_73_6/VoxelSpacing10.000/denoised.zarr/2/.zarray
+  Shape: [46, 158, 158] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: train/static/ExperimentRuns/TS_73_6/VoxelSpacing10.000/denoised.zarr/1/.zarray
+  Shape: [92, 315, 315] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: test/static/ExperimentRuns/TS_5_4/VoxelSpacing10.000/denoised.zarr/0/.zarray
+  Shape: [184, 630, 630] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: test/static/ExperimentRuns/TS_5_4/VoxelSpacing10.000/denoised.zarr/2/.zarray
+  Shape: [46, 158, 158] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: test/static/ExperimentRuns/TS_5_4/VoxelSpacing10.000/denoised.zarr/1/.zarray
+  Shape: [92, 315, 315] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: test/static/ExperimentRuns/TS_69_2/VoxelSpacing10.000/denoised.zarr/0/.zarray
+  Shape: [184, 630, 630] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: test/static/ExperimentRuns/TS_69_2/VoxelSpacing10.000/denoised.zarr/2/.zarray
+  Shape: [46, 158, 158] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: test/static/ExperimentRuns/TS_69_2/VoxelSpacing10.000/denoised.zarr/1/.zarray
+  Shape: [92, 315, 315] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: test/static/ExperimentRuns/TS_6_4/VoxelSpacing10.000/denoised.zarr/0/.zarray
+  Shape: [184, 630, 630] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: test/static/ExperimentRuns/TS_6_4/VoxelSpacing10.000/denoised.zarr/2/.zarray
+  Shape: [46, 158, 158] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+File: test/static/ExperimentRuns/TS_6_4/VoxelSpacing10.000/denoised.zarr/1/.zarray
+  Shape: [92, 315, 315] | Chunks: [256, 256, 256] | Type: <f4
+  Compressor: blosc
+
+
+## 4. EXPANDED BINARY & DATA STORAGE DETAILS
+--------------------------------------------------------------------------------
+This section groups binary chunks by their parent Zarr dataset.
+
+Zarr Dataset (Logical Name)                                  | Chunks   | Size      
+--------------------------------------------------------------------------------
+train/static/ExperimentRuns/TS_86_3/VoxelSpacing10.000/ctfdeconvolved.zarr | 14       | 303.21 MB 
+train/static/ExperimentRuns/TS_6_6/VoxelSpacing10.000/ctfdeconvolved.zarr | 14       | 303.16 MB 
+train/static/ExperimentRuns/TS_5_4/VoxelSpacing10.000/ctfdeconvolved.zarr | 14       | 303.04 MB 
+train/static/ExperimentRuns/TS_73_6/VoxelSpacing10.000/ctfdeconvolved.zarr | 14       | 303.02 MB 
+train/static/ExperimentRuns/TS_99_9/VoxelSpacing10.000/ctfdeconvolved.zarr | 14       | 303.00 MB 
+train/static/ExperimentRuns/TS_69_2/VoxelSpacing10.000/ctfdeconvolved.zarr | 14       | 302.89 MB 
+train/static/ExperimentRuns/TS_6_4/VoxelSpacing10.000/ctfdeconvolved.zarr | 14       | 302.85 MB 
+train/static/ExperimentRuns/TS_99_9/VoxelSpacing10.000/wbp.zarr | 14       | 301.83 MB 
+train/static/ExperimentRuns/TS_86_3/VoxelSpacing10.000/wbp.zarr | 14       | 301.78 MB 
+train/static/ExperimentRuns/TS_69_2/VoxelSpacing10.000/wbp.zarr | 14       | 301.77 MB 
+train/static/ExperimentRuns/TS_6_4/VoxelSpacing10.000/wbp.zarr | 14       | 301.77 MB 
+train/static/ExperimentRuns/TS_5_4/VoxelSpacing10.000/wbp.zarr | 14       | 301.76 MB 
+train/static/ExperimentRuns/TS_6_6/VoxelSpacing10.000/wbp.zarr | 14       | 301.75 MB 
+train/static/ExperimentRuns/TS_73_6/VoxelSpacing10.000/wbp.zarr | 14       | 301.71 MB 
+train/static/ExperimentRuns/TS_86_3/VoxelSpacing10.000/denoised.zarr | 14       | 298.90 MB 
+train/static/ExperimentRuns/TS_6_6/VoxelSpacing10.000/denoised.zarr | 14       | 298.80 MB 
+train/static/ExperimentRuns/TS_73_6/VoxelSpacing10.000/denoised.zarr | 14       | 298.78 MB 
+train/static/ExperimentRuns/TS_69_2/VoxelSpacing10.000/denoised.zarr | 14       | 298.52 MB 
+test/static/ExperimentRuns/TS_69_2/VoxelSpacing10.000/denoised.zarr | 14       | 298.52 MB 
+train/static/ExperimentRuns/TS_6_4/VoxelSpacing10.000/denoised.zarr | 14       | 298.37 MB 
+test/static/ExperimentRuns/TS_6_4/VoxelSpacing10.000/denoised.zarr | 14       | 298.37 MB 
+train/static/ExperimentRuns/TS_5_4/VoxelSpacing10.000/denoised.zarr | 14       | 298.25 MB 
+test/static/ExperimentRuns/TS_5_4/VoxelSpacing10.000/denoised.zarr | 14       | 298.25 MB 
+train/static/ExperimentRuns/TS_99_9/VoxelSpacing10.000/denoised.zarr | 14       | 297.78 MB 
+train/static/ExperimentRuns/TS_99_9/VoxelSpacing10.000/isonetcorrected.zarr | 14       | 281.97 MB 
+train/static/ExperimentRuns/TS_6_4/VoxelSpacing10.000/isonetcorrected.zarr | 14       | 281.82 MB 
+train/static/ExperimentRuns/TS_73_6/VoxelSpacing10.000/isonetcorrected.zarr | 14       | 281.80 MB 
+train/static/ExperimentRuns/TS_5_4/VoxelSpacing10.000/isonetcorrected.zarr | 14       | 281.62 MB 
+train/static/ExperimentRuns/TS_6_6/VoxelSpacing10.000/isonetcorrected.zarr | 14       | 281.43 MB 
+train/static/ExperimentRuns/TS_86_3/VoxelSpacing10.000/isonetcorrected.zarr | 14       | 281.35 MB 
+train/static/ExperimentRuns/TS_69_2/VoxelSpacing10.000/isonetcorrected.zarr | 14       | 281.23 MB 
+--------------------------------------------------------------------------------
+Sample Binary Chunk Filenames (Raw Data):
+  - 0 (inside 0)
+  - 2 (inside 0)
+  - 1 (inside 0)
+  - 0 (inside 2)
+  - 2 (inside 2)
+
+## 5. ZATTRS METADATA (Physical Units & Multiscales)
+--------------------------------------------------------------------------------
+File: train/static/ExperimentRuns/TS_5_4/VoxelSpacing10.000/isonetcorrected.zarr/.zattrs
+  Keys: ['multiscales']
+  Content (Preview): {'multiscales': [{'axes': [{'name': 'z', 'type': 'space', 'unit': 'angstrom'}, {'name': 'y', 'type': 'space', 'unit': 'angstrom'}, {'name': 'x', 'type': 'space', 'unit': 'angstrom'}], 'datasets': [{'coordinateTransformations': [{'scale': [10.012444196428572, 10.012444196428572, 10.012444537618887], ...
+
+File: train/static/ExperimentRuns/TS_5_4/VoxelSpacing10.000/ctfdeconvolved.zarr/.zattrs
+  Keys: ['multiscales']
+  Content (Preview): {'multiscales': [{'axes': [{'name': 'z', 'type': 'space', 'unit': 'angstrom'}, {'name': 'y', 'type': 'space', 'unit': 'angstrom'}, {'name': 'x', 'type': 'space', 'unit': 'angstrom'}], 'datasets': [{'coordinateTransformations': [{'scale': [10.012444196428572, 10.012444196428572, 10.012444537618887], ...
+
+File: train/static/ExperimentRuns/TS_5_4/VoxelSpacing10.000/wbp.zarr/.zattrs
+  Keys: ['multiscales']
+  Content (Preview): {'multiscales': [{'axes': [{'name': 'z', 'type': 'space', 'unit': 'angstrom'}, {'name': 'y', 'type': 'space', 'unit': 'angstrom'}, {'name': 'x', 'type': 'space', 'unit': 'angstrom'}], 'datasets': [{'coordinateTransformations': [{'scale': [10.012444196428572, 10.012444196428572, 10.012444537618887], ...
+
+File: train/static/ExperimentRuns/TS_5_4/VoxelSpacing10.000/denoised.zarr/.zattrs
+  Keys: ['multiscales']
+  Content (Preview): {'multiscales': [{'axes': [{'name': 'z', 'type': 'space', 'unit': 'angstrom'}, {'name': 'y', 'type': 'space', 'unit': 'angstrom'}, {'name': 'x', 'type': 'space', 'unit': 'angstrom'}], 'datasets': [{'coordinateTransformations': [{'scale': [10.012444196428572, 10.012444196428572, 10.012444537618887], ...
+
+File: train/static/ExperimentRuns/TS_69_2/VoxelSpacing10.000/isonetcorrected.zarr/.zattrs
+  Keys: ['multiscales']
+  Content (Preview): {'multiscales': [{'axes': [{'name': 'z', 'type': 'space', 'unit': 'angstrom'}, {'name': 'y', 'type': 'space', 'unit': 'angstrom'}, {'name': 'x', 'type': 'space', 'unit': 'angstrom'}], 'datasets': [{'coordinateTransformations': [{'scale': [10.012444196428572, 10.012444196428572, 10.012444537618887], ...
+
+File: train/static/ExperimentRuns/TS_69_2/VoxelSpacing10.000/ctfdeconvolved.zarr/.zattrs
+  Keys: ['multiscales']
+  Content (Preview): {'multiscales': [{'axes': [{'name': 'z', 'type': 'space', 'unit': 'angstrom'}, {'name': 'y', 'type': 'space', 'unit': 'angstrom'}, {'name': 'x', 'type': 'space', 'unit': 'angstrom'}], 'datasets': [{'coordinateTransformations': [{'scale': [10.012444196428572, 10.012444196428572, 10.012444537618887], ...
+
+File: train/static/ExperimentRuns/TS_69_2/VoxelSpacing10.000/wbp.zarr/.zattrs
+  Keys: ['multiscales']
+  Content (Preview): {'multiscales': [{'axes': [{'name': 'z', 'type': 'space', 'unit': 'angstrom'}, {'name': 'y', 'type': 'space', 'unit': 'angstrom'}, {'name': 'x', 'type': 'space', 'unit': 'angstrom'}], 'datasets': [{'coordinateTransformations': [{'scale': [10.012444196428572, 10.012444196428572, 10.012444537618887], ...
+
+File: train/static/ExperimentRuns/TS_69_2/VoxelSpacing10.000/denoised.zarr/.zattrs
+  Keys: ['multiscales']
+  Content (Preview): {'multiscales': [{'axes': [{'name': 'z', 'type': 'space', 'unit': 'angstrom'}, {'name': 'y', 'type': 'space', 'unit': 'angstrom'}, {'name': 'x', 'type': 'space', 'unit': 'angstrom'}], 'datasets': [{'coordinateTransformations': [{'scale': [10.012444196428572, 10.012444196428572, 10.012444537618887], ...
+
+File: train/static/ExperimentRuns/TS_99_9/VoxelSpacing10.000/isonetcorrected.zarr/.zattrs
+  Keys: ['multiscales']
+  Content (Preview): {'multiscales': [{'axes': [{'name': 'z', 'type': 'space', 'unit': 'angstrom'}, {'name': 'y', 'type': 'space', 'unit': 'angstrom'}, {'name': 'x', 'type': 'space', 'unit': 'angstrom'}], 'datasets': [{'coordinateTransformations': [{'scale': [10.012444196428572, 10.012444196428572, 10.012444537618887], ...
+
+File: train/static/ExperimentRuns/TS_99_9/VoxelSpacing10.000/ctfdeconvolved.zarr/.zattrs
+  Keys: ['multiscales']
+  Content (Preview): {'multiscales': [{'axes': [{'name': 'z', 'type': 'space', 'unit': 'angstrom'}, {'name': 'y', 'type': 'space', 'unit': 'angstrom'}, {'name': 'x', 'type': 'space', 'unit': 'angstrom'}], 'datasets': [{'coordinateTransformations': [{'scale': [10.012444196428572, 10.012444196428572, 10.012444537618887], ...
+
+File: train/static/ExperimentRuns/TS_99_9/VoxelSpacing10.000/wbp.zarr/.zattrs
+  Keys: ['multiscales']
+  Content (Preview): {'multiscales': [{'axes': [{'name': 'z', 'type': 'space', 'unit': 'angstrom'}, {'name': 'y', 'type': 'space', 'unit': 'angstrom'}, {'name': 'x', 'type': 'space', 'unit': 'angstrom'}], 'datasets': [{'coordinateTransformations': [{'scale': [10.012444196428572, 10.012444196428572, 10.012444537618887], ...
+
+File: train/static/ExperimentRuns/TS_99_9/VoxelSpacing10.000/denoised.zarr/.zattrs
+  Keys: ['multiscales']
+  Content (Preview): {'multiscales': [{'axes': [{'name': 'z', 'type': 'space', 'unit': 'angstrom'}, {'name': 'y', 'type': 'space', 'unit': 'angstrom'}, {'name': 'x', 'type': 'space', 'unit': 'angstrom'}], 'datasets': [{'coordinateTransformations': [{'scale': [10.012444196428572, 10.012444196428572, 10.012444537618887], ...
+
+File: train/static/ExperimentRuns/TS_6_4/VoxelSpacing10.000/isonetcorrected.zarr/.zattrs
+  Keys: ['multiscales']
+  Content (Preview): {'multiscales': [{'axes': [{'name': 'z', 'type': 'space', 'unit': 'angstrom'}, {'name': 'y', 'type': 'space', 'unit': 'angstrom'}, {'name': 'x', 'type': 'space', 'unit': 'angstrom'}], 'datasets': [{'coordinateTransformations': [{'scale': [10.012444196428572, 10.012444196428572, 10.012444537618887], ...
+
+File: train/static/ExperimentRuns/TS_6_4/VoxelSpacing10.000/ctfdeconvolved.zarr/.zattrs
+  Keys: ['multiscales']
+  Content (Preview): {'multiscales': [{'axes': [{'name': 'z', 'type': 'space', 'unit': 'angstrom'}, {'name': 'y', 'type': 'space', 'unit': 'angstrom'}, {'name': 'x', 'type': 'space', 'unit': 'angstrom'}], 'datasets': [{'coordinateTransformations': [{'scale': [10.012444196428572, 10.012444196428572, 10.012444537618887], ...
+
+File: train/static/ExperimentRuns/TS_6_4/VoxelSpacing10.000/wbp.zarr/.zattrs
+  Keys: ['multiscales']
+  Content (Preview): {'multiscales': [{'axes': [{'name': 'z', 'type': 'space', 'unit': 'angstrom'}, {'name': 'y', 'type': 'space', 'unit': 'angstrom'}, {'name': 'x', 'type': 'space', 'unit': 'angstrom'}], 'datasets': [{'coordinateTransformations': [{'scale': [10.012444196428572, 10.012444196428572, 10.012444537618887], ...
+
+File: train/static/ExperimentRuns/TS_6_4/VoxelSpacing10.000/denoised.zarr/.zattrs
+  Keys: ['multiscales']
+  Content (Preview): {'multiscales': [{'axes': [{'name': 'z', 'type': 'space', 'unit': 'angstrom'}, {'name': 'y', 'type': 'space', 'unit': 'angstrom'}, {'name': 'x', 'type': 'space', 'unit': 'angstrom'}], 'datasets': [{'coordinateTransformations': [{'scale': [10.012444196428572, 10.012444196428572, 10.012444537618887], ...
+
+File: train/static/ExperimentRuns/TS_6_6/VoxelSpacing10.000/isonetcorrected.zarr/.zattrs
+  Keys: ['multiscales']
+  Content (Preview): {'multiscales': [{'axes': [{'name': 'z', 'type': 'space', 'unit': 'angstrom'}, {'name': 'y', 'type': 'space', 'unit': 'angstrom'}, {'name': 'x', 'type': 'space', 'unit': 'angstrom'}], 'datasets': [{'coordinateTransformations': [{'scale': [10.012444196428572, 10.012444196428572, 10.012444537618887], ...
+
+File: train/static/ExperimentRuns/TS_6_6/VoxelSpacing10.000/ctfdeconvolved.zarr/.zattrs
+  Keys: ['multiscales']
+  Content (Preview): {'multiscales': [{'axes': [{'name': 'z', 'type': 'space', 'unit': 'angstrom'}, {'name': 'y', 'type': 'space', 'unit': 'angstrom'}, {'name': 'x', 'type': 'space', 'unit': 'angstrom'}], 'datasets': [{'coordinateTransformations': [{'scale': [10.012444196428572, 10.012444196428572, 10.012444537618887], ...
+
+File: train/static/ExperimentRuns/TS_6_6/VoxelSpacing10.000/wbp.zarr/.zattrs
+  Keys: ['multiscales']
+  Content (Preview): {'multiscales': [{'axes': [{'name': 'z', 'type': 'space', 'unit': 'angstrom'}, {'name': 'y', 'type': 'space', 'unit': 'angstrom'}, {'name': 'x', 'type': 'space', 'unit': 'angstrom'}], 'datasets': [{'coordinateTransformations': [{'scale': [10.012444196428572, 10.012444196428572, 10.012444537618887], ...
+
+File: train/static/ExperimentRuns/TS_6_6/VoxelSpacing10.000/denoised.zarr/.zattrs
+  Keys: ['multiscales']
+  Content (Preview): {'multiscales': [{'axes': [{'name': 'z', 'type': 'space', 'unit': 'angstrom'}, {'name': 'y', 'type': 'space', 'unit': 'angstrom'}, {'name': 'x', 'type': 'space', 'unit': 'angstrom'}], 'datasets': [{'coordinateTransformations': [{'scale': [10.012444196428572, 10.012444196428572, 10.012444537618887], ...
+
+File: train/static/ExperimentRuns/TS_86_3/VoxelSpacing10.000/isonetcorrected.zarr/.zattrs
+  Keys: ['multiscales']
+  Content (Preview): {'multiscales': [{'axes': [{'name': 'z', 'type': 'space', 'unit': 'angstrom'}, {'name': 'y', 'type': 'space', 'unit': 'angstrom'}, {'name': 'x', 'type': 'space', 'unit': 'angstrom'}], 'datasets': [{'coordinateTransformations': [{'scale': [10.012444196428572, 10.012444196428572, 10.012444537618887], ...
+
+File: train/static/ExperimentRuns/TS_86_3/VoxelSpacing10.000/ctfdeconvolved.zarr/.zattrs
+  Keys: ['multiscales']
+  Content (Preview): {'multiscales': [{'axes': [{'name': 'z', 'type': 'space', 'unit': 'angstrom'}, {'name': 'y', 'type': 'space', 'unit': 'angstrom'}, {'name': 'x', 'type': 'space', 'unit': 'angstrom'}], 'datasets': [{'coordinateTransformations': [{'scale': [10.012444196428572, 10.012444196428572, 10.012444537618887], ...
+
+File: train/static/ExperimentRuns/TS_86_3/VoxelSpacing10.000/wbp.zarr/.zattrs
+  Keys: ['multiscales']
+  Content (Preview): {'multiscales': [{'axes': [{'name': 'z', 'type': 'space', 'unit': 'angstrom'}, {'name': 'y', 'type': 'space', 'unit': 'angstrom'}, {'name': 'x', 'type': 'space', 'unit': 'angstrom'}], 'datasets': [{'coordinateTransformations': [{'scale': [10.012444196428572, 10.012444196428572, 10.012444537618887], ...
+
+File: train/static/ExperimentRuns/TS_86_3/VoxelSpacing10.000/denoised.zarr/.zattrs
+  Keys: ['multiscales']
+  Content (Preview): {'multiscales': [{'axes': [{'name': 'z', 'type': 'space', 'unit': 'angstrom'}, {'name': 'y', 'type': 'space', 'unit': 'angstrom'}, {'name': 'x', 'type': 'space', 'unit': 'angstrom'}], 'datasets': [{'coordinateTransformations': [{'scale': [10.012444196428572, 10.012444196428572, 10.012444537618887], ...
+
+File: train/static/ExperimentRuns/TS_73_6/VoxelSpacing10.000/isonetcorrected.zarr/.zattrs
+  Keys: ['multiscales']
+  Content (Preview): {'multiscales': [{'axes': [{'name': 'z', 'type': 'space', 'unit': 'angstrom'}, {'name': 'y', 'type': 'space', 'unit': 'angstrom'}, {'name': 'x', 'type': 'space', 'unit': 'angstrom'}], 'datasets': [{'coordinateTransformations': [{'scale': [10.012444196428572, 10.012444196428572, 10.012444537618887], ...
+
+File: train/static/ExperimentRuns/TS_73_6/VoxelSpacing10.000/ctfdeconvolved.zarr/.zattrs
+  Keys: ['multiscales']
+  Content (Preview): {'multiscales': [{'axes': [{'name': 'z', 'type': 'space', 'unit': 'angstrom'}, {'name': 'y', 'type': 'space', 'unit': 'angstrom'}, {'name': 'x', 'type': 'space', 'unit': 'angstrom'}], 'datasets': [{'coordinateTransformations': [{'scale': [10.012444196428572, 10.012444196428572, 10.012444537618887], ...
+
+File: train/static/ExperimentRuns/TS_73_6/VoxelSpacing10.000/wbp.zarr/.zattrs
+  Keys: ['multiscales']
+  Content (Preview): {'multiscales': [{'axes': [{'name': 'z', 'type': 'space', 'unit': 'angstrom'}, {'name': 'y', 'type': 'space', 'unit': 'angstrom'}, {'name': 'x', 'type': 'space', 'unit': 'angstrom'}], 'datasets': [{'coordinateTransformations': [{'scale': [10.012444196428572, 10.012444196428572, 10.012444537618887], ...
+
+File: train/static/ExperimentRuns/TS_73_6/VoxelSpacing10.000/denoised.zarr/.zattrs
+  Keys: ['multiscales']
+  Content (Preview): {'multiscales': [{'axes': [{'name': 'z', 'type': 'space', 'unit': 'angstrom'}, {'name': 'y', 'type': 'space', 'unit': 'angstrom'}, {'name': 'x', 'type': 'space', 'unit': 'angstrom'}], 'datasets': [{'coordinateTransformations': [{'scale': [10.012444196428572, 10.012444196428572, 10.012444537618887], ...
+
+File: test/static/ExperimentRuns/TS_5_4/VoxelSpacing10.000/denoised.zarr/.zattrs
+  Keys: ['multiscales']
+  Content (Preview): {'multiscales': [{'axes': [{'name': 'z', 'type': 'space', 'unit': 'angstrom'}, {'name': 'y', 'type': 'space', 'unit': 'angstrom'}, {'name': 'x', 'type': 'space', 'unit': 'angstrom'}], 'datasets': [{'coordinateTransformations': [{'scale': [10.012444196428572, 10.012444196428572, 10.012444537618887], ...
+
+File: test/static/ExperimentRuns/TS_69_2/VoxelSpacing10.000/denoised.zarr/.zattrs
+  Keys: ['multiscales']
+  Content (Preview): {'multiscales': [{'axes': [{'name': 'z', 'type': 'space', 'unit': 'angstrom'}, {'name': 'y', 'type': 'space', 'unit': 'angstrom'}, {'name': 'x', 'type': 'space', 'unit': 'angstrom'}], 'datasets': [{'coordinateTransformations': [{'scale': [10.012444196428572, 10.012444196428572, 10.012444537618887], ...
+
+File: test/static/ExperimentRuns/TS_6_4/VoxelSpacing10.000/denoised.zarr/.zattrs
+  Keys: ['multiscales']
+  Content (Preview): {'multiscales': [{'axes': [{'name': 'z', 'type': 'space', 'unit': 'angstrom'}, {'name': 'y', 'type': 'space', 'unit': 'angstrom'}, {'name': 'x', 'type': 'space', 'unit': 'angstrom'}], 'datasets': [{'coordinateTransformations': [{'scale': [10.012444196428572, 10.012444196428572, 10.012444537618887], ...
+
+
+## 6. ZGROUP DETAILS
+--------------------------------------------------------------------------------
+File: train/static/ExperimentRuns/TS_5_4/VoxelSpacing10.000/isonetcorrected.zarr/.zgroup -> Format: 2
+File: train/static/ExperimentRuns/TS_5_4/VoxelSpacing10.000/ctfdeconvolved.zarr/.zgroup -> Format: 2
+File: train/static/ExperimentRuns/TS_5_4/VoxelSpacing10.000/wbp.zarr/.zgroup -> Format: 2
+File: train/static/ExperimentRuns/TS_5_4/VoxelSpacing10.000/denoised.zarr/.zgroup -> Format: 2
+File: train/static/ExperimentRuns/TS_69_2/VoxelSpacing10.000/isonetcorrected.zarr/.zgroup -> Format: 2
+File: train/static/ExperimentRuns/TS_69_2/VoxelSpacing10.000/ctfdeconvolved.zarr/.zgroup -> Format: 2
+File: train/static/ExperimentRuns/TS_69_2/VoxelSpacing10.000/wbp.zarr/.zgroup -> Format: 2
+File: train/static/ExperimentRuns/TS_69_2/VoxelSpacing10.000/denoised.zarr/.zgroup -> Format: 2
+File: train/static/ExperimentRuns/TS_99_9/VoxelSpacing10.000/isonetcorrected.zarr/.zgroup -> Format: 2
+File: train/static/ExperimentRuns/TS_99_9/VoxelSpacing10.000/ctfdeconvolved.zarr/.zgroup -> Format: 2
+File: train/static/ExperimentRuns/TS_99_9/VoxelSpacing10.000/wbp.zarr/.zgroup -> Format: 2
+File: train/static/ExperimentRuns/TS_99_9/VoxelSpacing10.000/denoised.zarr/.zgroup -> Format: 2
+File: train/static/ExperimentRuns/TS_6_4/VoxelSpacing10.000/isonetcorrected.zarr/.zgroup -> Format: 2
+File: train/static/ExperimentRuns/TS_6_4/VoxelSpacing10.000/ctfdeconvolved.zarr/.zgroup -> Format: 2
+File: train/static/ExperimentRuns/TS_6_4/VoxelSpacing10.000/wbp.zarr/.zgroup -> Format: 2
+File: train/static/ExperimentRuns/TS_6_4/VoxelSpacing10.000/denoised.zarr/.zgroup -> Format: 2
+File: train/static/ExperimentRuns/TS_6_6/VoxelSpacing10.000/isonetcorrected.zarr/.zgroup -> Format: 2
+File: train/static/ExperimentRuns/TS_6_6/VoxelSpacing10.000/ctfdeconvolved.zarr/.zgroup -> Format: 2
+File: train/static/ExperimentRuns/TS_6_6/VoxelSpacing10.000/wbp.zarr/.zgroup -> Format: 2
+File: train/static/ExperimentRuns/TS_6_6/VoxelSpacing10.000/denoised.zarr/.zgroup -> Format: 2
+File: train/static/ExperimentRuns/TS_86_3/VoxelSpacing10.000/isonetcorrected.zarr/.zgroup -> Format: 2
+File: train/static/ExperimentRuns/TS_86_3/VoxelSpacing10.000/ctfdeconvolved.zarr/.zgroup -> Format: 2
+File: train/static/ExperimentRuns/TS_86_3/VoxelSpacing10.000/wbp.zarr/.zgroup -> Format: 2
+File: train/static/ExperimentRuns/TS_86_3/VoxelSpacing10.000/denoised.zarr/.zgroup -> Format: 2
+File: train/static/ExperimentRuns/TS_73_6/VoxelSpacing10.000/isonetcorrected.zarr/.zgroup -> Format: 2
+File: train/static/ExperimentRuns/TS_73_6/VoxelSpacing10.000/ctfdeconvolved.zarr/.zgroup -> Format: 2
+File: train/static/ExperimentRuns/TS_73_6/VoxelSpacing10.000/wbp.zarr/.zgroup -> Format: 2
+File: train/static/ExperimentRuns/TS_73_6/VoxelSpacing10.000/denoised.zarr/.zgroup -> Format: 2
+File: test/static/ExperimentRuns/TS_5_4/VoxelSpacing10.000/denoised.zarr/.zgroup -> Format: 2
+File: test/static/ExperimentRuns/TS_69_2/VoxelSpacing10.000/denoised.zarr/.zgroup -> Format: 2
+File: test/static/ExperimentRuns/TS_6_4/VoxelSpacing10.000/denoised.zarr/.zgroup -> Format: 2
+
+## 7. JSON METADATA (Picks/Annotations)
+--------------------------------------------------------------------------------
+File: train/overlay/ExperimentRuns/TS_5_4/Picks/apo-ferritin.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_5_4/Picks/virus-like-particle.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_5_4/Picks/beta-galactosidase.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_5_4/Picks/thyroglobulin.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_5_4/Picks/ribosome.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_5_4/Picks/beta-amylase.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_69_2/Picks/apo-ferritin.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_69_2/Picks/virus-like-particle.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_69_2/Picks/beta-galactosidase.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_69_2/Picks/thyroglobulin.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_69_2/Picks/ribosome.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_69_2/Picks/beta-amylase.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_99_9/Picks/apo-ferritin.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_99_9/Picks/virus-like-particle.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_99_9/Picks/beta-galactosidase.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_99_9/Picks/thyroglobulin.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_99_9/Picks/ribosome.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_99_9/Picks/beta-amylase.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_6_4/Picks/apo-ferritin.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_6_4/Picks/virus-like-particle.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_6_4/Picks/beta-galactosidase.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_6_4/Picks/thyroglobulin.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_6_4/Picks/ribosome.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_6_4/Picks/beta-amylase.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_6_6/Picks/apo-ferritin.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_6_6/Picks/virus-like-particle.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_6_6/Picks/beta-galactosidase.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_6_6/Picks/thyroglobulin.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_6_6/Picks/ribosome.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_6_6/Picks/beta-amylase.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_86_3/Picks/apo-ferritin.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_86_3/Picks/virus-like-particle.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_86_3/Picks/beta-galactosidase.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_86_3/Picks/thyroglobulin.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_86_3/Picks/ribosome.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_86_3/Picks/beta-amylase.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_73_6/Picks/apo-ferritin.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_73_6/Picks/virus-like-particle.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_73_6/Picks/beta-galactosidase.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_73_6/Picks/thyroglobulin.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_73_6/Picks/ribosome.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+File: train/overlay/ExperimentRuns/TS_73_6/Picks/beta-amylase.json
+  Keys: ['pickable_object_name', 'user_id', 'session_id', 'run_name', 'voxel_spacing', 'unit', 'points', 'trust_orientation']
+
+
+## 10. CSV FILE INSPECTION
+--------------------------------------------------------------------------------
+File: sample_submission.csv
+  Dimensions: 6 columns
+  Columns: ['id', 'experiment', 'particle_type', 'x', 'y', 'z']
+  Sample Row:
+id                          0
+experiment             TS_5_4
+particle_type    beta-amylase
+x                    2983.596
+y                     3154.13
+z                     764.124
+

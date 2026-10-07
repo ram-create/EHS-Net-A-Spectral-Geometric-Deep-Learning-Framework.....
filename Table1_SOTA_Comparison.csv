@@ -1,0 +1,6 @@
+Model,Parameters (M),F4 Score,Recall,Inference Time (min)
+Standard 3D U-Net,32M,0.65,0.71,12.0
+DeepSeek MHC,45M,0.81,0.84,9.0
+Cryo-Former,28M,0.76,0.75,15.5
+Swin-UNetr,41M,0.79,0.8,14.2
+EHS-Net++ (Ours),35M,0.8891,0.8925,60.5

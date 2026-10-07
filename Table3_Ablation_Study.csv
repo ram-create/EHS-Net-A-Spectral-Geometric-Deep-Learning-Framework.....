@@ -1,0 +1,5 @@
+Configuration,F4 Score,Recall,Param Count
+Full EHS-Net++,0.8891,0.8925,35M
+w/o Equivariant Bottleneck,0.8391,0.842,31M
+w/o LWAB Attention,0.8591,0.861,34M
+w/o 3D Augmentation,0.8091,0.81,35M
